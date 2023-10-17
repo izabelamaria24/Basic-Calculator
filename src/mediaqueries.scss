@@ -1,0 +1,45 @@
+@import './style.scss';
+
+@media (max-width: 414px) {
+  .btn-grid {
+    width: 300px;
+  }
+  .result-display {
+    font-size: 20px;
+    min-height: 25px;
+    padding: 2px 5px;
+  }
+  .input-display {
+    font-size: 35px;
+    min-height: 45px;
+    padding: 2px 10px;
+  }
+  .btn {
+    padding: 23px;
+    font-size: 20px;
+  }
+  .label {
+    transform: scale(1);
+  }
+  .toggle-dark {
+    top: 30px;
+  }
+}
+
+@media (max-width: 360px) {
+  .toggle-dark {
+    top: 40px;
+  }
+  .btn-grid {
+    width: 250px;
+  }
+  .btn {
+    padding: 20px;
+    font-size: 15px;
+  }
+}
+@media (max-width: 320px) {
+  .toggle-dark {
+    top: 30px;
+  }
+}
